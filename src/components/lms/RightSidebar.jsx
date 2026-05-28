@@ -4,12 +4,12 @@ import styled from "styled-components";
 
 // Ар бир менюга "path" коштук
 const apps = [
-  { title: "Расписание занятий", icon: "🖥️", path: "/lms/schedule" },
+  { title: "Расписание занятий", icon: "🖥️", path: "/lms" },
   { title: "Новостная лента", icon: "📰", path: "/lms/news" },
-  { title: "Журнал", icon: "📓", path: "/lms/journal" },
+  { title: "Журнал", icon: "📓", path: "/journal" },
   { title: "УМК", icon: "📘", path: "/lms/umk" },
   { title: "е-Библиотека", icon: "📚", path: "/lms/library" },
-  { title: "Тестирование", icon: "📝", path: "/lms/testing" },
+  { title: "Тестирование", icon: "📝", path: "/testing" },
   { title: "Анкетирование", icon: "📋", path: "/lms/survey" },
   { title: "Личная карточка", icon: "👤", path: "/personalCard" },
   { title: "Регистрация на дисциплины", icon: "📌", path: "/lms/registration" },
@@ -108,7 +108,7 @@ const AppItem = styled.div`
   padding: 9px 12px;
   border-radius: 6px;
   cursor: pointer;
-  background: ${(props) => (props.active ? "#e3eaf3" : "transparent")};
+  background: ${(props) => (props.active ? "#b0c7e5" : "transparent")};
 
   &:hover {
     background: #e3eaf3;
